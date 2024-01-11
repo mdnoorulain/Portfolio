@@ -1,7 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiLeetcode } from "react-icons/si";
 function SocialLink() {
   const links = [
     {
@@ -28,6 +29,16 @@ function SocialLink() {
       id: 3,
       child: (
         <>
+          LeetCode <SiLeetcode size={30} />
+        </>
+      ),
+      href: "https://leetcode.com/mdnoorulain786/",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 4,
+      child: (
+        <>
           Mail <HiOutlineMail size={30} />
         </>
       ),
@@ -35,14 +46,14 @@ function SocialLink() {
       style: "rounded-tr-md",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
       href: "/Resume_noorul.pdf",
-      style: "rounded-br-md",
+      style: "rounded-tr-md",
       download: true,
     },
   ];
