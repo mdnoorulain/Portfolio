@@ -8,7 +8,7 @@ function Contact() {
      text-white"
     >
       <div className=" felx flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className=" pb-4 pt-12">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
@@ -33,7 +33,7 @@ function Contact() {
 
             <textarea
               name="message"
-              rows="10"
+              rows="8"
               placeholder="Enter your message...."
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
