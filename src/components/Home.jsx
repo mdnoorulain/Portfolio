@@ -14,7 +14,7 @@ function Home() {
       >
         <div className="flex flex-col justify-center px-6 h-full">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
-            I'm a Software Doveloper
+            I'm a Software Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
           Adaptable mind-set additionally with proven critical thinking, Team management, and communication skills with a
