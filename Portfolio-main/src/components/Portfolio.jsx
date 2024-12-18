@@ -36,7 +36,7 @@ function Portfolio() {
           id: 5,
           src: installNode,
           href: "",
-          web: "https://mtz-education.netlify.app"
+          web: "https://mtz-education.netlify.app" 
         },
         {
           id: 6,
