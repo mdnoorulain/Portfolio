@@ -28,7 +28,7 @@ function NavBar() {
   return (
     <div className='flex justify-between items-center w-full h-20 bg-black px-4 text-white fixed'>
         <div>
-            <h1 className='text-4xl font-signature ml-2'>Noorul Ain Ashrafi</h1>
+            <h1 className='text-4xl font-signature ml-2'>Er Noorul Ain Ashrafi</h1>
         </div>
         
         <ul className='hidden md:flex'>
